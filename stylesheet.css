@@ -230,7 +230,7 @@
     margin-left: -100px;
     margin-top: 410px;
 }
-
+/*
 #weapon{
     position: absolute;
     background: url(weapon.jpg);
@@ -425,7 +425,7 @@
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 div {
     display: block;
 }
