@@ -1,0 +1,471 @@
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+#headline {
+    position: fixed;
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    color: white;
+    margin-left: 1175px;
+    margin-top: 230px;
+}
+
+.left-slot{
+    position: fixed;
+    margin-left: 97%;
+    margin-top: 600px;
+}
+
+#headline_small{
+    color: gainsboro;
+}
+
+.stigma_bg {
+    position: fixed;
+    height: 315px;
+    width: 401px;
+    background-image: url("stigma_bg.png");
+    left: 0;
+    right: 0;
+    margin-top: 520px;
+    margin-left: 50px;
+}
+
+.stigma {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    opacity: 0.7;
+    transition: all 0.1s ease;
+}
+
+.stigma_slot {
+    height: 78px;
+    width: 82px;
+}
+
+#green_1 {
+    position: absolute;
+    top: 189px;
+    right: 63px;
+    background: url(stigma_slot.png);
+    background-position: -83px -79px;
+}
+
+#green_1_stigma {
+    background: url(schlag.jpg);
+    margin-left: 22.5px;
+    margin-top: 21px;
+}
+
+#green_1_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#green_2 {
+    position: absolute;
+    bottom: 3px;
+    left: 162px;
+    background: url(stigma_slot.png);
+    background-position: -83px -79px;
+}
+
+#green_2_stigma {
+    background: url(storm.jpg);
+    margin-left: 22px;
+    margin-top: 21px;
+}
+
+#green_2_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#green_3 {
+    position: absolute;
+    top: 190px;
+    left: 66px;
+    background: url(stigma_slot.png);
+    background-position: -83px -79px;
+}
+
+#green_3_stigma {
+    background: url(element.jpg);
+    margin-left: 22px;
+    margin-top: 20.5px;
+}
+
+#green_3_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#blue_1 {
+    position: absolute;
+    top: 80px;
+    right: 55px;
+    background: url(stigma_slot.png);
+    background-position: -166px -79px;
+}
+
+#blue_1_stigma {
+    background: url(illu.jpg);
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+#blue_1_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#blue_2 {
+    position: absolute;
+    top: 80px;
+    left: 54px;
+    background: url(stigma_slot.png);
+    background-position: -166px -79px;
+}
+
+#blue_2_stigma {
+    background: url(sleepingstorm.jpg);
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+#blue_2_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#gold_1 {
+    position: absolute;
+    top: 11px;
+    left: 162px;
+    background: url(stigma_slot.png);
+    background-position: -249px -79px;
+}
+
+#gold_1_stigma {
+    background: url(icy.jpg);
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+#gold_1_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#vision {
+    position: absolute;
+    top: 120px;
+    left: 165px;
+    background: url(stigma_slot.png) -354px -23px;
+}
+
+#vision_stigma {
+    background: url(windsleep.jpg);
+    margin-left: 19px;
+    margin-top: 19px;
+}
+
+#vision_stigma:hover {
+    filter: url(schlag.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.gear{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 410px;
+}
+
+#weapon{
+    position: absolute;
+    background: url(weapon.jpg);
+    margin-left: 228px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#weapon:hover {
+    filter: url(weapon.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#halskette{
+    position: absolute;
+    background: url(gear_halskette.jpg);
+    margin-left: 269px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#halskette:hover {
+    filter: url(gear_halskette.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#earring{
+    position: absolute;
+    background: url(gear_earring.jpg);
+    margin-left: 310px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#earring:hover {
+    filter: url(gear_earring.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#ring{
+    position: absolute;
+    background: url(gear_ring.jpg);
+    margin-left: 351px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#ring:hover {
+    filter: url(gear_ring.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#gurt{
+    position: absolute;
+    background: url(gear_gurt.jpg);
+    margin-left: 392px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#gurt:hover {
+    filter: url(gear_gurt.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#wing{
+    position: absolute;
+    background: url(gear_wing.jpg);
+    margin-left: 433px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#wing:hover {
+    filter: url(gear_wing.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#top{
+    position: absolute;
+    background: url(gear_top.jpg);
+    margin-left: 227px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#top:hover {
+    filter: url(gear_top.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#schulter{
+    position: absolute;
+    background: url(gear_schulter.jpg);
+    margin-left: 268px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#schulter:hover {
+    filter: url(gear_schulter.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#hose{
+    position: absolute;
+    background: url(gear_hose.jpg);
+    margin-left: 309px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#hose:hover {
+    filter: url(gear_hose.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#hand{
+    position: absolute;
+    background: url(gear_hand.jpg);
+    margin-left: 350px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#hand:hover {
+    filter: url(gear_schulter.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#boots{
+    position: absolute;
+    background: url(gear_boots.jpg);
+    margin-left: 391px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#boots:hover {
+    filter: url(gear_schulter.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#head{
+    position: absolute;
+    background: url(gear_head.jpg);
+    margin-left: 432px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#head:hover {
+    filter: url(gear_head.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#feather{
+    position: absolute;
+    background: url(feather.jpg);
+    margin-left: 331px;
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+}
+
+#feather:hover {
+    filter: url(feather.jpg);
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+div {
+    display: block;
+}
+
+#mouseOver {
+    display: inline;
+    position: relative;
+}
+    
+#mouseOver img {
+    position: fixed;
+    left: 35%;
+    transform: translate(-50%);
+    bottom: 100px;
+    opacity: 0;
+    pointer-events: none;
+    transition-duration: 800ms;    
+}
+    
+#mouseOver:hover img {
+    opacity: 1;
+    transition-duration: 400ms;
+}
+
+#mouseOver2 {
+    display: inline;
+    position: relative;
+}
+    
+#mouseOver2 img {
+    position: fixed;
+    left: 35%;
+    transform: translate(-50%);
+    bottom: 100px;
+    opacity: 0;
+    pointer-events: none;
+    transition-duration: 800ms;    
+}
+    
+#mouseOver2:hover img {
+    opacity: 1;
+    transition-duration: 400ms;
+}
