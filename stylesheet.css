@@ -230,7 +230,7 @@
     margin-left: -100px;
     margin-top: 410px;
 }
-/*
+
 #weapon{
     position: absolute;
     background: url(weapon.jpg);
@@ -239,13 +239,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #weapon:hover {
     filter: url(weapon.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #halskette{
     position: absolute;
     background: url(gear_halskette.jpg);
@@ -254,13 +254,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #halskette:hover {
     filter: url(gear_halskette.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #earring{
     position: absolute;
     background: url(gear_earring.jpg);
@@ -269,13 +269,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #earring:hover {
     filter: url(gear_earring.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #ring{
     position: absolute;
     background: url(gear_ring.jpg);
@@ -284,13 +284,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #ring:hover {
     filter: url(gear_ring.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #gurt{
     position: absolute;
     background: url(gear_gurt.jpg);
@@ -299,13 +299,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #gurt:hover {
     filter: url(gear_gurt.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #wing{
     position: absolute;
     background: url(gear_wing.jpg);
@@ -314,13 +314,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #wing:hover {
     filter: url(gear_wing.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #top{
     position: absolute;
     background: url(gear_top.jpg);
@@ -329,13 +329,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #top:hover {
     filter: url(gear_top.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #schulter{
     position: absolute;
     background: url(gear_schulter.jpg);
@@ -344,13 +344,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #schulter:hover {
     filter: url(gear_schulter.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #hose{
     position: absolute;
     background: url(gear_hose.jpg);
@@ -359,13 +359,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #hose:hover {
     filter: url(gear_hose.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #hand{
     position: absolute;
     background: url(gear_hand.jpg);
@@ -374,13 +374,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #hand:hover {
     filter: url(gear_schulter.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #boots{
     position: absolute;
     background: url(gear_boots.jpg);
@@ -389,13 +389,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #boots:hover {
     filter: url(gear_schulter.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #head{
     position: absolute;
     background: url(gear_head.jpg);
@@ -404,13 +404,13 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #head:hover {
     filter: url(gear_head.jpg);
     filter: gray;
     -webkit-filter: grayscale(100%);
 }
-
+*/
 #feather{
     position: absolute;
     background: url(feather.jpg);
@@ -419,7 +419,7 @@
     width: 40px;
     height: 40px;
 }
-
+/*
 #feather:hover {
     filter: url(feather.jpg);
     filter: gray;
