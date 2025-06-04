@@ -430,22 +430,22 @@ div {
     display: block;
 }
 
-#mouseOver {
+.mouseOver {
     display: inline;
     position: relative;
 }
     
-#mouseOver img {
+.mouseOver img {
     position: fixed;
     left: 35%;
     transform: translate(-50%);
     bottom: 100px;
     opacity: 0;
     pointer-events: none;
-    transition-duration: 800ms;    
+    transition-duration: 800ms;
 }
     
-#mouseOver:hover img {
+.mouseOver:hover img {
     opacity: 1;
     transition-duration: 400ms;
 }
